@@ -16,6 +16,14 @@
 		5C3EE6DB29C1595500690B6B /* MultipleRootViewTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C3EE6DA29C1595500690B6B /* MultipleRootViewTests.swift */; };
 		5C3EE6E529C1595500690B6B /* MultipleRootViewUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C3EE6E429C1595500690B6B /* MultipleRootViewUITests.swift */; };
 		5C3EE6E729C1595500690B6B /* MultipleRootViewUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C3EE6E629C1595500690B6B /* MultipleRootViewUITestsLaunchTests.swift */; };
+		5C3EE6F429C15C4100690B6B /* RBGViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C3EE6F329C15C4100690B6B /* RBGViewController.swift */; };
+		5C3EE6F829C15C6E00690B6B /* CMYKViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C3EE6F729C15C6E00690B6B /* CMYKViewController.swift */; };
+		5C3EE6FA29C15CB900690B6B /* CommonColorViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C3EE6F929C15CB900690B6B /* CommonColorViewController.swift */; };
+		5C3EE6FC29C162E800690B6B /* Print.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C3EE6FB29C162E800690B6B /* Print.swift */; };
+		5C3EE6FE29C1831B00690B6B /* HiddenNavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C3EE6FD29C1831B00690B6B /* HiddenNavigationController.swift */; };
+		5C3EE70029C1838600690B6B /* ColorChildViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C3EE6FF29C1838600690B6B /* ColorChildViewController.swift */; };
+		5C3EE70329C1879E00690B6B /* CommonColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C3EE70229C1879E00690B6B /* CommonColor.swift */; };
+		5C3EE70529C18A4F00690B6B /* RootNaviRequestable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C3EE70429C18A4F00690B6B /* RootNaviRequestable.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +57,14 @@
 		5C3EE6E029C1595500690B6B /* MultipleRootViewUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MultipleRootViewUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		5C3EE6E429C1595500690B6B /* MultipleRootViewUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MultipleRootViewUITests.swift; sourceTree = "<group>"; };
 		5C3EE6E629C1595500690B6B /* MultipleRootViewUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MultipleRootViewUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		5C3EE6F329C15C4100690B6B /* RBGViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RBGViewController.swift; sourceTree = "<group>"; };
+		5C3EE6F729C15C6E00690B6B /* CMYKViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CMYKViewController.swift; sourceTree = "<group>"; };
+		5C3EE6F929C15CB900690B6B /* CommonColorViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommonColorViewController.swift; sourceTree = "<group>"; };
+		5C3EE6FB29C162E800690B6B /* Print.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Print.swift; sourceTree = "<group>"; };
+		5C3EE6FD29C1831B00690B6B /* HiddenNavigationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HiddenNavigationController.swift; sourceTree = "<group>"; };
+		5C3EE6FF29C1838600690B6B /* ColorChildViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorChildViewController.swift; sourceTree = "<group>"; };
+		5C3EE70229C1879E00690B6B /* CommonColor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommonColor.swift; sourceTree = "<group>"; };
+		5C3EE70429C18A4F00690B6B /* RootNaviRequestable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RootNaviRequestable.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,9 +115,15 @@
 		5C3EE6C229C1595300690B6B /* MultipleRootView */ = {
 			isa = PBXGroup;
 			children = (
+				5C3EE70129C186F500690B6B /* CommonViews */,
+				5C3EE6F629C15C5B00690B6B /* CMYKView */,
+				5C3EE6F529C15C4F00690B6B /* RGBView */,
 				5C3EE6C329C1595300690B6B /* AppDelegate.swift */,
 				5C3EE6C529C1595300690B6B /* SceneDelegate.swift */,
 				5C3EE6C729C1595300690B6B /* ViewController.swift */,
+				5C3EE6FB29C162E800690B6B /* Print.swift */,
+				5C3EE70229C1879E00690B6B /* CommonColor.swift */,
+				5C3EE70429C18A4F00690B6B /* RootNaviRequestable.swift */,
 				5C3EE6C929C1595300690B6B /* Main.storyboard */,
 				5C3EE6CC29C1595400690B6B /* Assets.xcassets */,
 				5C3EE6CE29C1595400690B6B /* LaunchScreen.storyboard */,
@@ -125,6 +147,32 @@
 				5C3EE6E629C1595500690B6B /* MultipleRootViewUITestsLaunchTests.swift */,
 			);
 			path = MultipleRootViewUITests;
+			sourceTree = "<group>";
+		};
+		5C3EE6F529C15C4F00690B6B /* RGBView */ = {
+			isa = PBXGroup;
+			children = (
+				5C3EE6F329C15C4100690B6B /* RBGViewController.swift */,
+			);
+			path = RGBView;
+			sourceTree = "<group>";
+		};
+		5C3EE6F629C15C5B00690B6B /* CMYKView */ = {
+			isa = PBXGroup;
+			children = (
+				5C3EE6F729C15C6E00690B6B /* CMYKViewController.swift */,
+			);
+			path = CMYKView;
+			sourceTree = "<group>";
+		};
+		5C3EE70129C186F500690B6B /* CommonViews */ = {
+			isa = PBXGroup;
+			children = (
+				5C3EE6F929C15CB900690B6B /* CommonColorViewController.swift */,
+				5C3EE6FD29C1831B00690B6B /* HiddenNavigationController.swift */,
+				5C3EE6FF29C1838600690B6B /* ColorChildViewController.swift */,
+			);
+			path = CommonViews;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -258,9 +306,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5C3EE6F429C15C4100690B6B /* RBGViewController.swift in Sources */,
 				5C3EE6C829C1595300690B6B /* ViewController.swift in Sources */,
+				5C3EE6FC29C162E800690B6B /* Print.swift in Sources */,
+				5C3EE6F829C15C6E00690B6B /* CMYKViewController.swift in Sources */,
+				5C3EE70329C1879E00690B6B /* CommonColor.swift in Sources */,
+				5C3EE6FA29C15CB900690B6B /* CommonColorViewController.swift in Sources */,
 				5C3EE6C429C1595300690B6B /* AppDelegate.swift in Sources */,
+				5C3EE6FE29C1831B00690B6B /* HiddenNavigationController.swift in Sources */,
 				5C3EE6C629C1595300690B6B /* SceneDelegate.swift in Sources */,
+				5C3EE70529C18A4F00690B6B /* RootNaviRequestable.swift in Sources */,
+				5C3EE70029C1838600690B6B /* ColorChildViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -443,8 +499,8 @@
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -471,8 +527,8 @@
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
